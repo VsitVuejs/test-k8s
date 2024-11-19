@@ -4,6 +4,7 @@
 1. https://github.com/VsitVuejs/test-k8s
 2. Вывод команды kubectl get pods -A после деплоя приложения.
 
+```
 NAMESPACE     NAME                               READY   STATUS    RESTARTS        AGE
 default       gitlab-test-6545d849bc-zjhf8       1/1     Running   0               71s
 kube-system   coredns-6f6b679f8f-6kj9f           1/1     Running   0               7h45m
