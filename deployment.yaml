@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitlab-test
+  labels:
+    app: my-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-test
+  template:
+    metadata:
+      labels:
+        app: my-test
+    spec:
+      containers:
+        - name: my-test
+          image: user/my-test:<VERSION>
+          ports:
+            - containerPort: 5000
