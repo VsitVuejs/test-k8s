@@ -1,6 +1,5 @@
 # Deployment 
 
-Ожидаем от вас
 1. https://github.com/VsitVuejs/test-k8s
 2. Вывод команды kubectl get pods -A после деплоя приложения.
 
